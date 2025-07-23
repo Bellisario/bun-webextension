@@ -1,0 +1,21 @@
+{
+	"name": "bun-webextension",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "bun --watch build.ts",
+		"build": "NODE_ENV=\"production\" bun build.ts",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@types/bun": "^1.2.19",
+		"@types/chrome": "^0.1.1",
+		"@types/firefox-webext-browser": "^120.0.4",
+		"prettier": "^3.6.2",
+		"webextension-polyfill": "^0.12.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5.8.3"
+	}
+}

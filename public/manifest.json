@@ -1,0 +1,22 @@
+{
+	"$schema": "https://json.schemastore.org/webextension",
+	"manifest_version": 3,
+	"name": "MyExtension",
+	"description": "My awesome extension",
+	"version": "0.1.0",
+	"author": "me",
+	"homepage_url": "https://example.com/me/myextension",
+	"permissions": [],
+	"background": {
+		"service_worker": "background.js",
+		"scripts": ["background.js"]
+	},
+	"action": {
+		"default_icon": "icon.png",
+		"default_popup": "ui/popup/index.html"
+	},
+	"options_ui": {
+		"page": "ui/options/index.html",
+		"open_in_tab": true
+	}
+}
