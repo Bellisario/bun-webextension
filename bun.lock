@@ -5,7 +5,7 @@
       "name": "bun-webextension",
       "devDependencies": {
         "@types/bun": "^1.2.19",
-        "@types/chrome": "^0.1.1",
+        "@types/chrome": "^0.1.9",
         "@types/firefox-webext-browser": "^120.0.4",
         "prettier": "^3.6.2",
         "webextension-polyfill": "^0.12.0",
@@ -18,7 +18,7 @@
   "packages": {
     "@types/bun": ["@types/bun@1.2.19", "", { "dependencies": { "bun-types": "1.2.19" } }, "sha512-d9ZCmrH3CJ2uYKXQIUuZ/pUnTqIvLDS0SK7pFmbx8ma+ziH/FRMoAq5bYpRG7y+w1gl+HgyNZbtqgMq4W4e2Lg=="],
 
-    "@types/chrome": ["@types/chrome@0.1.1", "", { "dependencies": { "@types/filesystem": "*", "@types/har-format": "*" } }, "sha512-MLtFW++/n+OPQIaf5hA6pmURd3Zn+OxuvASyf2mYh8B8pHDpbhHjwlVHMw3H/aJC9Z7Z3itO0AFaZeegrGk0yA=="],
+    "@types/chrome": ["@types/chrome@0.1.9", "", { "dependencies": { "@types/filesystem": "*", "@types/har-format": "*" } }, "sha512-Tjzql/wuGkC4Q3FWSziPMbggN0FwQZph4WFhzvnBfmnipzX1vtNBNToAGGpSqAAf26wfKFfZTZmxN8+pgMK9Rw=="],
 
     "@types/filesystem": ["@types/filesystem@0.0.36", "", { "dependencies": { "@types/filewriter": "*" } }, "sha512-vPDXOZuannb9FZdxgHnqSwAG/jvdGM8Wq+6N4D/d80z+D4HWH+bItqsZaVRQykAn6WEVeEkLm2oQigyHtgb0RA=="],
 
