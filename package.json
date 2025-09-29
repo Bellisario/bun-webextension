@@ -9,7 +9,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@types/bun": "^1.2.19",
+		"@types/bun": "^1.2.23",
 		"@types/chrome": "^0.1.1",
 		"@types/firefox-webext-browser": "^120.0.4",
 		"prettier": "^3.6.2",
